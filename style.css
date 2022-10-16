@@ -49,6 +49,7 @@ main .rating-state h1 {
 }
 main .rating-state p {
   margin: 10px 0 20px;
+  line-height: 1.6;
 }
 main .rating-state .rate-levels {
   display: flex;
