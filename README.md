@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/flexbox-javascript-events-qfiXobf-RZ)
-- Live Site URL: [Add live site URL here](https://interactive-rating-component-main-bice.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/flexbox-javascript-events-qfiXobf-RZ]
+- Live Site URL: [https://interactive-rating-component-main-bice.vercel.app/]
 
 ## My process
 
