@@ -12,8 +12,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -27,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/flexbox-javascript-events-qfiXobf-RZ]
-- Live Site URL: [https://interactive-rating-component-main-bice.vercel.app/]
+- Solution URL: https://www.frontendmentor.io/solutions/flexbox-javascript-events-qfiXobf-RZ
+- Live Site URL: https://interactive-rating-component-main-bice.vercel.app/
 
 ## My process
 
