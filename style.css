@@ -5,6 +5,7 @@
   --accent-clr: hsl(25, 97%, 53%);
   --hover-clr: hsl(217, 12%, 63%);
   --body-clr: hsl(216, 12%, 54%);
+  --main-transition: background-color 250ms, color 250ms;
 }
 * {
   box-sizing: border-box;
@@ -25,22 +26,44 @@ h1,
 h2 {
   color: white;
 }
+p {
+  line-height: 1.6;
+}
+/* Work Space */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-spaced {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checked {
+  background-color: var(--accent-clr) !important;
+  color: white !important;
+}
+.circle-bordered {
+  border-radius: 50%;
+}
+.bordered {
+  border-radius: 25px;
+}
+
+/* Main styles */
 main {
   max-width: 410px;
 }
+/* Rating State */
 main .rating-state {
   background-color: #1f2630;
   padding: 30px;
-  border-radius: 25px;
 }
 main .rating-state .rate-img {
   background-color: #262f38;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 30px;
 }
 main .rating-state h1 {
@@ -49,12 +72,8 @@ main .rating-state h1 {
 }
 main .rating-state p {
   margin: 10px 0 20px;
-  line-height: 1.6;
 }
 main .rating-state .rate-levels {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-bottom: 25px;
   margin-right: 10px;
 }
@@ -68,7 +87,7 @@ main .rating-state .rate-levels span {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: background-color 200ms, color 200ms;
+  transition: var(--main-transition);
 }
 main .rating-state .rate-levels span:hover {
   background-color: var(--hover-clr);
@@ -86,7 +105,7 @@ main .rating-state #submit-btn {
   text-transform: uppercase;
   letter-spacing: 1px;
   cursor: pointer;
-  transition: background-color 250ms, color 250ms;
+  transition: var(--main-transition);
 }
 main .rating-state #submit-btn:hover {
   background-color: white;
@@ -99,7 +118,6 @@ main .submited-state {
   display: none;
   text-align: center;
   background-color: #1f2630;
-  border-radius: 25px;
   padding: 40px 35px;
 }
 main .submited-state .selected-rate {
@@ -116,11 +134,7 @@ main .submited-state h2 {
 main .submited-state p {
   margin: 0;
 }
-.checked {
-  background-color: var(--accent-clr) !important;
-  color: white;
-}
-
+/* Footer */
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -134,5 +148,5 @@ main .submited-state p {
   text-decoration: none;
 }
 .attribution a:hover {
-    color: hsl(25, 62%, 54%);
+  color: hsl(25, 62%, 54%);
 }
